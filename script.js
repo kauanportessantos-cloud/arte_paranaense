@@ -1,3 +1,16 @@
-const botao = document. querySelector("#botaoMensagem");
+const botoesCurtir = dosument. querySelectorALL(".curtir");
+botoesCurtir.forEach (function(botaoCurtir){
+    let curtiu = false;
+    botaoCurtir.addEventListener("click", curtir);
+    function curtir (){
+        const contador = botaoCurtir.querySelector("span")
+        if (curtiu === false) {
+            contador.textContent++;
+            curtiu = true;
+        }else{
+            contador.textContent--;
+            curtiu = false;
+        }
+    }
 
-const mensagem = document. querySelector ("#mensagemInterativa");
+});
