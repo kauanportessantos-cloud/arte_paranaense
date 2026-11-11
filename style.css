@@ -103,10 +103,10 @@ figcaption {
 }
 
 .card {
-    background-color: #f3d9fa;
+    background-color: var(--cor-card);
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #00b800;
+    border-left: 6px solid var(--cor-prncipal);
     border-radius: 10px;
     flex:1 1 300px;
 }
@@ -116,8 +116,8 @@ figcaption {
 }
 
 footer {
-    background-color: #222222;
-    color: white;
+    background-color: var(--cor-rodape);
+    color: var(--cor-clara);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
@@ -125,16 +125,16 @@ footer {
 
 
 button {
-    background-color: green;
-    color:white;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     border:none;
     padding:10px 15 px;
     border-radius:8px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 button:hover {
-    background-color: var(--cor-segundaria);
+    background-color: var(--cor-hover);
 }
 
 .curtir {
